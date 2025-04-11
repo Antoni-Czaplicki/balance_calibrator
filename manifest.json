@@ -1,0 +1,9 @@
+{
+  "domain": "balance_calibrator",
+  "name": "Balance Calibrator",
+  "codeowners": ["@Antoni-Czaplicki"],
+  "config_flow": true,
+  "iot_class": "calculated",
+  "requirements": [],
+  "version": "0.0.1"
+}
