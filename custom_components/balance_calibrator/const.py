@@ -1,9 +1,6 @@
 """Constants for Balance Calibrator."""
 
-from homeassistant.const import Platform
-
 DOMAIN = "balance_calibrator"
-PLATFORMS = [Platform.BUTTON, Platform.NUMBER, Platform.SENSOR]
 
 # Device info
 MANUFACTURER = "Antek"
