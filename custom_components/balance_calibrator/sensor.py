@@ -136,7 +136,7 @@ class CalibratedBalanceSensor(SensorEntity):
         else:
             # Calculate the state based on distance and sensitivity
             self._state = entry_data["max_value"] / (
-                1 + entry_data["sensitivity"] * distance**1.7
+                1 + entry_data["sensitivity"] * 0.7 * distance**1.7
             )
 
         # Ensure the state is within the valid range
